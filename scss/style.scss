@@ -101,6 +101,10 @@ header.site-header.sticky .site-nav ul li a.active {
     }
 }
 
+nav.site-nav {
+    max-width: 33%;
+    margin: 0 auto;
+}
 
 .site-header {
     padding: 10px 0;
@@ -108,7 +112,7 @@ header.site-header.sticky .site-nav ul li a.active {
 
 .site-header .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -285,6 +289,8 @@ section.terms {
 }
 
 .maintop {
+    padding: 50px 0;
+
     &-text {
         display: flex;
         flex-direction: column;
@@ -294,7 +300,8 @@ section.terms {
 
     &-picture img {
         max-width: 450px;
-        height: 450px;
+        height: 350px;
+        object-fit: cover;
     }
 }
 
