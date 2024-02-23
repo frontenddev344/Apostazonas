@@ -52,9 +52,14 @@ h1 {
   color: #f2fbe9;
   font-family: "Roboto Slab", serif;
 }
+@media screen and (max-width: 575px) {
+  h1 {
+    font-size: 30px;
+  }
+}
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   line-height: normal;
   font-weight: 500;
   font-family: "Roboto Slab", serif;

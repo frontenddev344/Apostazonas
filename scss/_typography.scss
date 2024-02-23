@@ -54,10 +54,14 @@ h1 {
     font-weight: 500;
     color: $clr-pista;
     font-family: "Roboto Slab", serif;
+
+    @include mq(sm) {
+        font-size: 30px;
+    }
 }
 
 h2 {
-    font-size: 60px;
+    font-size: 40px;
     line-height: normal;
     font-weight: 500;
     font-family: "Roboto Slab", serif;
