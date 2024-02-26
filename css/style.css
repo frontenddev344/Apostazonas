@@ -12,13 +12,14 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 550px;
 }
 
 .banner::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.71);
+  background: rgba(0, 0, 0, 0.51);
   z-index: 0;
   height: 550px;
 }
@@ -476,6 +477,13 @@ p.rated-star {
 }
 
 /*best-css-end*/
+/*reviews-css-start*/
+.casino-montebanner.banner {
+  background-image: url(../images/casino-montebanner.webp);
+  position: relative;
+}
+
+/*reviews-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */

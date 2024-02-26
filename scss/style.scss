@@ -489,4 +489,32 @@ p.rated-star {
 
 /*best-css-end*/
 
+/*reviews-css-start*/
+.casino-montebanner.banner {
+    background-image: url(../images/casino-montebanner.webp);
+    position: relative;
+}
+
+// .detail{
+//     background-image: url(../images/reviewbanner.png);
+//     height: 450px;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     background-position: top;
+//     position: relative;
+// }
+// .detail::after{
+//     position: absolute;
+//     content: '';
+//     inset: 0;
+//     background: rgba(0, 0, 0, 0.80);
+//     height: 450px;
+//     z-index: 1;
+// }
+// .detail p {
+//     color: $clr-black;
+//     z-index: 2;
+// }
+/*reviews-css-end*/
+
 /*# sourceMappingURL=style.css.map */
