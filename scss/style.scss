@@ -378,13 +378,58 @@ section.terms {
 .offerstart {
     padding-bottom: 50px;
 }
+
 /*about-css-end*/
 
 /*best-css-start*/
-.bestbanner.banner{
+.bestbanner.banner {
     background-image: url(../images/bestbanner.jpeg);
     height: 550px;
 }
+
+.best-btn a {
+    background: $clr-green;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: $clr-pista;
+    display: inline-block;
+    border: 1px solid $clr-green;
+
+    &:hover {
+        color: $clr-green;
+        background-color: $clr-pista;
+        border: 1px solid $clr-green;
+    }
+}
+
+.best {
+    &grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+        border: 1px solid $clr-green;
+        padding: 0;
+    }
+
+    &picture img {
+        max-width: 350px;
+    }
+
+    &-btn {
+        text-align: center;
+    }
+}
+
+.main-rate-star {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+p.rated-star {
+    color: $clr-green;
+}
+
 /*best-css-end*/
 
 /*# sourceMappingURL=style.css.map */

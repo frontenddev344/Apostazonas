@@ -434,6 +434,44 @@ section.terms {
   height: 550px;
 }
 
+.best-btn a {
+  background: #6a994e;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #f2fbe9;
+  display: inline-block;
+  border: 1px solid #6a994e;
+}
+.best-btn a:hover {
+  color: #6a994e;
+  background-color: #f2fbe9;
+  border: 1px solid #6a994e;
+}
+
+.bestgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  border: 1px solid #6a994e;
+  padding: 0;
+}
+.bestpicture img {
+  max-width: 350px;
+}
+.best-btn {
+  text-align: center;
+}
+
+.main-rate-star {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+p.rated-star {
+  color: #6a994e;
+}
+
 /*best-css-end*/
 
 
