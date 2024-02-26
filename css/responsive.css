@@ -270,6 +270,7 @@ h5 {
     height: 250px;
     object-fit: cover;
     object-position: 20% 70%;
+    margin-bottom: 10px;
   }
   .main-rate-star {
     justify-content: start;
