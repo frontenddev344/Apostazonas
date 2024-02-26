@@ -454,6 +454,7 @@ section.terms {
   align-items: center;
   border: 1px solid #6a994e;
   padding: 0;
+  margin-bottom: 25px;
 }
 .bestpicture img {
   max-width: 350px;
