@@ -202,6 +202,10 @@
         height: 350px;
         margin-bottom: 25px;
     }
+
+    .offer-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media screen and (max-width:575px) {

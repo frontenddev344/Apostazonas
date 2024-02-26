@@ -45,6 +45,12 @@ p {
   color: #0C0B0B;
   font-family: "Barlow", sans-serif;
 }
+@media screen and (max-width: 575px) {
+  p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
 
 h1 {
   font-size: 45px;
@@ -64,6 +70,11 @@ h2 {
   font-weight: 500;
   font-family: "Roboto Slab", serif;
 }
+@media screen and (max-width: 575px) {
+  h2 {
+    font-size: 24px;
+  }
+}
 
 h3 {
   font-size: 22px;
@@ -80,6 +91,13 @@ h3 span {
 
 h4 {
   font-size: 35px;
+  line-height: normal;
+  color: #6a994e;
+  font-family: "Roboto Slab";
+}
+
+h5 {
+  font-size: 20px;
   line-height: normal;
   color: #6a994e;
   font-family: "Roboto Slab";
@@ -332,6 +350,10 @@ section.terms {
   color: #f2fbe9;
 }
 
+.banner p {
+  color: #fff;
+}
+
 .maintop {
   padding: 50px 0;
 }
@@ -363,6 +385,46 @@ section.terms {
 
 .detailcard {
   padding: 50px 0;
+}
+
+.description {
+  padding-bottom: 25px;
+}
+
+/*home-css-end*/
+/*about-css-start*/
+.aboutbanner.banner {
+  background-image: url(../images/aboutbanner.jpg);
+  height: 550px;
+}
+
+.offer-main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  text-align: center;
+  margin: 25px 0;
+}
+.offer-box {
+  height: 100%;
+  background: #6a994e;
+  padding: 30px;
+}
+.offer-box h5 {
+  color: #f2fbe9;
+}
+.offer-box img {
+  max-width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.offer-box img:hover {
+  transform: translateY(-10px);
+  transition: 0.3s;
+}
+
+.offerstart {
+  padding-bottom: 50px;
 }
 
 /*home-css-end*/
