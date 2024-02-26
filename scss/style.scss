@@ -68,7 +68,7 @@ header.site-header {
 header.site-header.sticky {
     background: $clr-green;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-    padding: 10px 0;
+    padding: 14px 0;
     position: fixed;
 }
 
@@ -378,6 +378,13 @@ section.terms {
 .offerstart {
     padding-bottom: 50px;
 }
+/*about-css-end*/
 
-/*home-css-end*/
+/*best-css-start*/
+.bestbanner.banner{
+    background-image: url(../images/bestbanner.jpeg);
+    height: 550px;
+}
+/*best-css-end*/
+
 /*# sourceMappingURL=style.css.map */

@@ -166,7 +166,7 @@ header.site-header {
 header.site-header.sticky {
   background: #6a994e;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  padding: 10px 0;
+  padding: 14px 0;
   position: fixed;
 }
 
@@ -427,7 +427,14 @@ section.terms {
   padding-bottom: 50px;
 }
 
-/*home-css-end*/
+/*about-css-end*/
+/*best-css-start*/
+.bestbanner.banner {
+  background-image: url(../images/bestbanner.jpeg);
+  height: 550px;
+}
+
+/*best-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
