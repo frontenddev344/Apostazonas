@@ -506,6 +506,15 @@ p.rated-star {
   position: relative;
 }
 
+.casino-baden.banner {
+  background-image: url(../images/casino-badenbanner.jpg);
+  position: relative;
+}
+
+.detail {
+  padding: 50px 0;
+}
+
 /*reviews-css-end*/
 
 
