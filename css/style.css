@@ -511,6 +511,37 @@ p.rated-star {
   position: relative;
 }
 
+.casino-estoril.banner {
+  background-image: url(../images/casino-estorilbanner.jpeg);
+  position: relative;
+}
+
+.casino-venezia.banner {
+  background-image: url(../images/casino-veneziabanner.jpg);
+  position: relative;
+  background-position: top;
+}
+
+.casino-barcelona.banner {
+  background-image: url(../images/casinobarcelona-banner.jpg);
+  position: relative;
+}
+
+.casino-spa.banner {
+  background-image: url(../images/casino-spabanner.jpg);
+  position: relative;
+}
+
+.casino-deauville.banner {
+  background-image: url(../images/casino-deauvillebanner.jpg);
+  position: relative;
+}
+
+.casinoempire.banner {
+  background-image: url(../images/casinoempire-banner.webp);
+  position: relative;
+}
+
 .detail {
   padding: 50px 0;
 }
