@@ -215,6 +215,16 @@
     .best-btn {
         text-align: start;
     }
+
+    button.dropbtn.menu.active {
+        padding: 0;
+    }
+
+    .site-nav>ul {
+        display: block;
+        padding: 75px 60px 0;
+        display: inline-block !important;
+    }
 }
 
 @media screen and (max-width:767px) {

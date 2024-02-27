@@ -454,7 +454,11 @@ section.terms {
 }
 
 p.rated-star {
-    color: $clr-green;
+    color: #f9af1e;
+}
+
+ul.dropdown-content {
+    display: none;
 }
 
 /*best-css-end*/
@@ -490,11 +494,13 @@ p.rated-star {
     background-image: url(../images/casino-spabanner.jpg);
     position: relative;
 }
+
 .casino-deauville.banner {
     background-image: url(../images/casino-deauvillebanner.jpg);
     position: relative;
 }
-.casinoempire.banner{
+
+.casinoempire.banner {
     background-image: url(../images/casinoempire-banner.webp);
     position: relative;
 }

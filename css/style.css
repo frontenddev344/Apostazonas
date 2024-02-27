@@ -496,7 +496,11 @@ section.terms {
 }
 
 p.rated-star {
-  color: #6a994e;
+  color: #f9af1e;
+}
+
+ul.dropdown-content {
+  display: none;
 }
 
 /*best-css-end*/
