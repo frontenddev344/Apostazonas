@@ -222,15 +222,15 @@ h5 {
   }
   ul.dropdown-content {
     position: absolute;
-    width: 250px;
-    background: transparent;
+    width: 230px;
+    background: black;
     top: 100%;
     left: 0;
-    background: #fff;
-    display: none;
+    display: none !important;
+    padding: 0;
   }
   .dropdown:hover .dropdown-content {
-    display: block;
+    display: block !important;
   }
   .bar-2 {
     width: 30px;
